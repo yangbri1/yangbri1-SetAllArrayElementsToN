@@ -23,6 +23,11 @@ public class Lab {
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
     public void set(int[] arr, int n){
-
+        // iterate through the array 'arr' using iterator 'i'
+        for(int i = 0; i < arr.length; ++i){
+            // set element at index 'i' to value int 'n' ...
+            arr[i] = n;
+            // increment up by 1 to next index of array
+        }
     }
 }
